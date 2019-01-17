@@ -7,6 +7,7 @@ import { Text, List, Button } from "native-base";
 import CartItem from "./CartItem";
 //Store
 import CartStore from "../../store/cartStore";
+import authStore from "../../store/authStore";
 
 class CoffeeCart extends Component {
   render() {
